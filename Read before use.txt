@@ -1,0 +1,20 @@
+*******
+
+Author: Hamish Clark
+Date: 16/08/2024
+Description: This file serves as a way to understand certain files are in this directory
+
+*******
+
+
+dataset.csv -- The dataset containing all the necessary information of the public bodies, associations, and departments that was derived from the gov.uk website
+
+read_blogs.csv -- The dataset containing all the necessary information of the public bodies, associations, and departments that do not have a gov.uk webpage but instead have their own website to search through. NOTE that this dataset is currently incomplete and lacks the necessary information to be able to read and retrieve information from all the blog websites
+
+main_project.py -- The main python script in which to run the tool
+
+saved_searches -- This directory is where all the saved searches will be. Each saved search will be as two files containing the same filename but have .csv and .txt. These files will contain the results of the search and the parameters set for the search respectively
+
+
+out.docx / out.xlsx -- Any file that is named 'out' with an extension '.docx' or '.xlsx' is the output of when a search that was made using the tool is exported to either Word or Excel
+
